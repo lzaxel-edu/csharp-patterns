@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Producers", "Producers", "{6C8E149D-3815-4D48-A7F5-FA0D7F545B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D0AE263-7200-4E82-9FCB-A4BD5B7473A0} = {6C8E149D-3815-4D48-A7F5-FA0D7F545B13}
+	EndGlobalSection
+EndGlobal
