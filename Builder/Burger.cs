@@ -1,4 +1,6 @@
-﻿namespace Builder;
+﻿using System.Text;
+
+namespace Builder;
 
 public class Burger
 {
@@ -8,4 +10,14 @@ public class Burger
     }
 
     public List<string> Ingredients { get; set; }
+
+    public override string ToString()
+    {
+        var text = new StringBuilder();
+        text.Append("Burger: ");
+        text.Append("Ingredients: ");
+        text.AppendJoin(", ", Ingredients);
+        
+        return text.ToString();
+    }
 }
