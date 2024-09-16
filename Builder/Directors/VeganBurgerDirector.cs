@@ -2,8 +2,8 @@ namespace Builder;
 
 public class VeganBurgerDirector
 {
-    private IBurgerBuilder _builder;
-    
+    private readonly IBurgerBuilder _builder;
+
     public VeganBurgerDirector(IBurgerBuilder builder)
     {
         _builder = builder;

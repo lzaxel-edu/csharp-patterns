@@ -2,13 +2,13 @@ namespace Builder;
 
 public class BurgerBuilder : IBurgerBuilder
 {
-    private List<string> _ingredients;
+    private readonly List<string> _ingredients;
 
     public BurgerBuilder()
     {
         _ingredients = new List<string>();
     }
-    
+
     public void WithCheese()
     {
         _ingredients.Add("Cheese");

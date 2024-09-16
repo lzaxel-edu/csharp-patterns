@@ -1,14 +1,14 @@
 namespace Builder;
 
-public class TestBurgerBuilder: IBurgerBuilder
+public class TestBurgerBuilder : IBurgerBuilder
 {
-    private List<string> _ingredients;
+    private readonly List<string> _ingredients;
 
     public TestBurgerBuilder()
     {
         _ingredients = new List<string>();
     }
-    
+
     public void WithCheese()
     {
         _ingredients.Add("Cheese");

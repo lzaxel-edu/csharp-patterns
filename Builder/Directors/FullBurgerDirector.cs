@@ -2,8 +2,8 @@ namespace Builder;
 
 public class FullBurgerDirector
 {
-    private IBurgerBuilder _builder;
-    
+    private readonly IBurgerBuilder _builder;
+
     public FullBurgerDirector(IBurgerBuilder builder)
     {
         _builder = builder;

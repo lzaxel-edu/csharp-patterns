@@ -1,14 +1,14 @@
 namespace Builder;
 
-public class StringBurgerBuilder: IBurgerBuilder
+public class StringBurgerBuilder : IBurgerBuilder
 {
-    private List<string> _ingredients;
+    private readonly List<string> _ingredients;
 
     public StringBurgerBuilder()
     {
         _ingredients = new List<string>();
     }
-    
+
     public void WithCheese()
     {
         _ingredients.Add("Cheese");
@@ -31,6 +31,6 @@ public class StringBurgerBuilder: IBurgerBuilder
 
     public string Build()
     {
-        return string.Join(" ",_ingredients);
+        return string.Join(" ", _ingredients);
     }
 }
