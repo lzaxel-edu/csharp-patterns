@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JEiVvMzA2gZLXPq09Tqj2FEMYR605pASFPHbe0qpxJcF0zxFd5Wg+FpxKWzUGW5dbQ7Pdq1SWcOt4ZAYaM3idQ==",
+  "dgSpecHash": "VCQByZV0GcQ=",
   "success": true,
-  "projectFilePath": "D:\\ФМФ\\210 Остапенко\\Aboba\\Builder\\Builder.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/lzaxel/code/uni/Aboba/Builder/Builder.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

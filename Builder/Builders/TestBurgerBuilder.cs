@@ -1,6 +1,6 @@
 namespace Builder;
 
-public class TestBurgerBuilder
+public class TestBurgerBuilder: IBurgerBuilder
 {
     private List<string> _ingredients;
 
