@@ -6,22 +6,22 @@ namespace AbstractFactory.Hitech;
 
 public class HitechFurnitureFactory : IFurnitureFactory
 {
-    public Chair CreateChair()
+    public IChair CreateChair()
     {
         return new HitechChair();
     }
 
-    public Bench CreateBench()
+    public IBench CreateBench()
     {
         return new HitechBench();
     }
 
-    public Couch CreateCouch()
+    public ICouch CreateCouch()
     {
         return new HitechCouch();
     }
 
-    public Sofa CreateSofa()
+    public ISofa CreateSofa()
     {
         return new HitechSofa();
     }

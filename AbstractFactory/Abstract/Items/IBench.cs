@@ -1,5 +1,5 @@
 namespace AbstractFactory.Abstract.Items;
 
-public abstract class Couch
+public interface IBench
 {
 }

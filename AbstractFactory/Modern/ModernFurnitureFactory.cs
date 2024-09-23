@@ -6,22 +6,22 @@ namespace AbstractFactory.Modern;
 
 public class ModernFurnitureFactory : IFurnitureFactory
 {
-    public Chair CreateChair()
+    public IChair CreateChair()
     {
         return new ModernChair();
     }
 
-    public Bench CreateBench()
+    public IBench CreateBench()
     {
         return new ModernBench();
     }
 
-    public Couch CreateCouch()
+    public ICouch CreateCouch()
     {
         return new ModernCouch();
     }
 
-    public Sofa CreateSofa()
+    public ISofa CreateSofa()
     {
         return new ModernSofa();
     }

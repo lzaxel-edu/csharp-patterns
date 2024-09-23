@@ -1,5 +1,5 @@
 ﻿using Client.AbstractFactory;
 using Client.Builder;
 
-// new AbstractFactoryExample().Run();
-new BuilderExample().Run();
+new AbstractFactoryExample().Run();
+// new BuilderExample().Run();

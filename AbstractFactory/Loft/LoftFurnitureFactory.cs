@@ -6,22 +6,22 @@ namespace AbstractFactory.Loft;
 
 public class LoftFurnitureFactory : IFurnitureFactory
 {
-    public Chair CreateChair()
+    public IChair CreateChair()
     {
         return new LoftChair();
     }
 
-    public Bench CreateBench()
+    public IBench CreateBench()
     {
         return new LoftBench();
     }
 
-    public Couch CreateCouch()
+    public ICouch CreateCouch()
     {
         return new LoftCouch();
     }
 
-    public Sofa CreateSofa()
+    public ISofa CreateSofa()
     {
         return new LoftSofa();
     }
