@@ -2,12 +2,12 @@ using Prototype.Info;
 
 namespace Prototype;
 
-public class User: ICloneable
+public class User
 {
-    public int ID { get; set; }
-    public string Username { get; set; }
-    public Contacts Contacts { get; set; }
-    public Favorites Favorites { get; set; }
+    public int ID { get; private set; }
+    public string Username { get; private set;}
+    public Contacts Contacts { get; private set;}
+    public Favorites Favorites { get; private set;}
 
     public User(int id, string username)
     {
@@ -16,8 +16,15 @@ public class User: ICloneable
         Contacts = new Contacts();
         Favorites = new Favorites();
     }
+    public User(int id, string username, Contacts contacts, Favorites favorites)
+    {
+        ID = id;
+        Username = username;
+        Contacts = contacts;
+        Favorites = favorites;
+    }
 
-    public object Clone()   
+    public User Clone()   
     {
         User clone = (User)MemberwiseClone();
         clone.Contacts = new Contacts(this.Contacts);
@@ -26,8 +33,13 @@ public class User: ICloneable
         return clone;
     }
 
+    public void SetUsername(string username)
+    {
+        this.Username = username;
+    }
+
     public override string ToString()
     {
-        return $"ID: {ID} Username:{Username} Favorites: '{Favorites}' Contacts: '{Contacts}'";
+        return $"ID: {ID} Username:{Username} Favorites: \"{Favorites}\" Contacts: \"{Contacts}\"";
     }
 }

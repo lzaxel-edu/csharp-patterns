@@ -2,19 +2,31 @@ namespace Prototype.Info;
 
 public class Favorites
 {
-    public string[] Food { get; set; }
-    public int[] PrimeNumbers { get; set; }
-    
-    public Favorites() {}
+    public List<string> Food { get; private set; }
+    public List<int> PrimeNumbers { get; private set; }
+
+    public Favorites()
+    {
+        Food = new List<string>{};
+        PrimeNumbers = new List<int>{};
+    }
     public Favorites(Favorites favorites)
         :this(favorites.Food, favorites.PrimeNumbers)
     {}
-    public Favorites(string[] food, int[] primeNumbers)
+    public Favorites(List<string> food, List<int> primeNumbers)
     {
-        Food = food;
-        PrimeNumbers = primeNumbers;
+        Food = food.ToList();
+        PrimeNumbers = primeNumbers.ToList();
     }
 
+    public void AddFood(string item)
+    {
+        Food.Add(item);
+    }
+    public void AddNumber(int number)
+    {
+        PrimeNumbers.Add(number);
+    }
     
     public override string ToString()
     {

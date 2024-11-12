@@ -2,8 +2,8 @@ namespace Prototype.Info;
 
 public class Contacts
 {
-    public string PhoneNumber { get; set; }
-    public string Email { get; set; }
+    public string PhoneNumber { get; private set; }
+    public string Email { get; private set; }
 
     public Contacts() {}
     public Contacts(Contacts contacts)
@@ -13,6 +13,11 @@ public class Contacts
     {
         PhoneNumber = phoneNumber;
         Email = email;
+    }
+
+    public void SetEmail(string email)
+    {
+        Email = email;   
     }
 
     public override string ToString()

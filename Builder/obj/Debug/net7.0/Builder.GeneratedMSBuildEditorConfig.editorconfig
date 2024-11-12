@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Builder
-build_property.ProjectDir = /home/lzaxel/code/uni/Aboba/Builder/
+build_property.ProjectDir = C:\Users\lzaxel\code\csharp-patterns\Builder\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
