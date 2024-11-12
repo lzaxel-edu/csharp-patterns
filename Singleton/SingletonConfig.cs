@@ -7,7 +7,7 @@ public class SingletonConfig
     private string Username { get; }
     private string Password { get; }
 
-    public SingletonConfig(string host, string port, string username, string password)
+    private SingletonConfig(string host, string port, string username, string password)
     {
         Host = host;
         Port = port;
