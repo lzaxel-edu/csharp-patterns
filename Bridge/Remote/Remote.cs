@@ -4,25 +4,29 @@ namespace Bridge.Remote;
 
 public abstract class Remote
 {
-    protected ITV _tv;
+    private ITV _TV { get; set; }
 
     public Remote(ITV tv)
     {
-        _tv = tv;
+        if (tv == null)
+        {
+            throw new Exception("TV is null");
+        }
+        _TV = tv;
     }
 
     public virtual void Enable()
     {
-        _tv.Toggle(true);
+        _TV.Toggle(true);
     }
 
     public virtual void Disable()
     {
-        _tv.Toggle(false);
+        _TV.Toggle(false);
     }
 
     public virtual void SetChannel(uint channel)
     {
-        _tv.SetChannel(channel);
+        _TV.SetChannel(channel);
     }
 }
