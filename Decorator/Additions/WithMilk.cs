@@ -5,5 +5,5 @@ namespace Decorator.Additions;
 public class WithMilk: WithAdditions
 {
     public WithMilk(ICoffee coffee) : base(coffee) {}
-    public override decimal DoCost() => 5;
+    protected override decimal DoCost() => 5;
 }
