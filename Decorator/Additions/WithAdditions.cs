@@ -12,7 +12,6 @@ public abstract class WithAdditions: ICoffee
         _coffee = coffee;
     }
     protected abstract decimal DoCost();
-    public string Name() => _coffee.Name();
     public decimal Cost()
     {
         return _coffee.Cost() + DoCost();

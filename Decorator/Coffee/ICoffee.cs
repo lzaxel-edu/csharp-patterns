@@ -3,5 +3,4 @@
 public interface ICoffee
 {
     Decimal Cost();
-    string Name();
 }
