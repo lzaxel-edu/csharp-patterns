@@ -5,6 +5,7 @@ public class MyFile: IMyFile
     private string _path; 
     public MyFile(string path)
     {
+        if (string.IsNullOrEmpty(path)) throw new ArgumentException("Value cannot be null or empty.", nameof(path));
         _path = path;
     }
 
