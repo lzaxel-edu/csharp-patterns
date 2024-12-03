@@ -4,19 +4,15 @@ namespace Bridge.Remote;
 
 public class ConcreteRemote: Remote
 {
-    public uint CurrentChannel { get; private set; } = 1;
-    
     public ConcreteRemote(ITV tv) : base(tv) { }
     
     public void Next()
     {
-        CurrentChannel++;
-        base.SetChannel(CurrentChannel);
+        base.SetChannel(CurrentChannel+1);
     }
 
     public void Previous()
     {
-        CurrentChannel--;
-        base.SetChannel(CurrentChannel);
+        base.SetChannel(CurrentChannel-1);
     }
 }

@@ -4,7 +4,11 @@ namespace Bridge.Remote;
 
 public abstract class Remote
 {
-    private ITV _TV { get; set; }
+    private ITV _TV { get; }
+    public uint CurrentChannel
+    {
+        get => _TV.CurrentChannel;
+    }
 
     public Remote(ITV tv)
     {
