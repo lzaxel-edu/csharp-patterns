@@ -14,8 +14,11 @@ public class DecoratorTest
     [Test]
     public void DecoratorLatteSugarTest()
     {
-        decimal coffeeCost = new WithSugar(new LatteCoffee()).Cost();
+        ICoffee coffee = new WithSugar(new LatteCoffee());
+        decimal coffeeCost = coffee.Cost();
+        
         Assert.AreEqual(23, coffeeCost);
+        Assert.AreEqual("Latte with sugar", coffee.Name());
     }
     
     [Test]

@@ -6,4 +6,5 @@ public class WithMilk: WithAdditions
 {
     public WithMilk(ICoffee coffee) : base(coffee) {}
     protected override decimal DoCost() => 5;
+    protected override string DoName() => " with milk";
 }
