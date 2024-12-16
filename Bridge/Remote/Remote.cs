@@ -14,7 +14,7 @@ public abstract class Remote
     {
         if (tv == null)
         {
-            throw new ArgumentException("TV is null");
+            throw new ArgumentNullException(nameof(tv));
         }
         _tv = tv;
     }
