@@ -8,6 +8,10 @@
       &lt;TestId&gt;NUnit3x::974745A0-FE60-4574-9E8D-66FC05E10E99::net8.0::StructuralTests.ProxyTest.ProxyFileTest&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::974745A0-FE60-4574-9E8D-66FC05E10E99::net8.0::StructuralTests.CompositeTest.CompositeSumTest&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::974745A0-FE60-4574-9E8D-66FC05E10E99::net8.0::StructuralTests.CompositeTest.CompositeTreeWalkTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::17EE60A6-52C7-44EB-BCD3-8A780A6C44D3::net8.0::BehavioralTests.ChainOfResponsibilityTest.TextDocumentTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::17EE60A6-52C7-44EB-BCD3-8A780A6C44D3::net8.0::BehavioralTests.ChainOfResponsibilityTest.TextDocumentNegativeTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::17EE60A6-52C7-44EB-BCD3-8A780A6C44D3::net8.0::BehavioralTests.ChainOfResponsibilityTest.PictureDocumentPositiveTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::17EE60A6-52C7-44EB-BCD3-8A780A6C44D3::net8.0::BehavioralTests.ChainOfResponsibilityTest&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;974745A0-FE60-4574-9E8D-66FC05E10E99/f:ProxyTest.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
