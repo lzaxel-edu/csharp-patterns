@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+      <ProjectReference Include="..\Strategy\Strategy.csproj" />
     </ItemGroup>
 
 </Project>
